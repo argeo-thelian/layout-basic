@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;: 
+}
+
+body{
+	font-family: Arial, Sans-serif;
+	font-size: 16px;
+	background: #4a465b;
+}
+
+.contenedor{
+	width: 62.5em;
+	margin: 1.25em auto;
+	overflow: hidden;
+}
+header{
+	background: #fff;
+}
+header nav{
+	width: 100%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+	/*display:inline-block;*/
+}
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.9375em 1.25em;
+	color: #000;
+}
+
+header nav ul li a:hover{
+	background: #000;
+	color: #fff;
+}
+
+.main {
+	width: 43.75em;
+	background: #fff;
+	float: left;
+}
+.main .imagen{
+	width: 100%;
+}
+.main .imagen img{
+	width: 100%;
+	vertical-align: top;
+}
+.main .posts{
+	padding: 2.5em;
+}
+.main .posts article h2 {
+	margin: 1.25em;
+	color: #424242;
+}
+.main .posts article p{
+	margin-bottom: 0.9375em;
+	line-height: 1.6875em;
+	text-align: justify;
+}
+aside{
+	width: 18.75em;
+	background: #161f26;
+	padding: 1.25em;
+	color: #fff;
+	float: left; 
+}
+aside .widget{
+	margin-bottom: 1.25em; 
+}
+aside .widget .titulo{
+	color: #ff8000;
+	border-bottom: 0.0625em solid #ff8000;
+}
+aside div p{
+	text-align: justify;
+}
+aside .widget ul{
+	list-style: none;
+}
+aside .widget ul li{
+	border-bottom: 0.0625em solid rgba(255,255,255,0.2);
+	padding: 0.625em 0; 
+}
+aside .widget ul li a{
+	color:rgba(255,255,255,1);
+	text-decoration: none;
+}
+aside .widget ul li a:hover{
+	color: #8f8f8f;
+}
+aside .widget p{
+	line-height: 1.6875em;
+}
+footer{
+	width: 43.75em;
+	overflow: hidden; /*clear: both;*/
+	background: #000;
+	color: #fff;
+	padding: 0.9375em 0;
+	text-align: center;  
+
+}
+     
+
+
+
+
+
+
